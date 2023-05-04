@@ -5,6 +5,8 @@ My configurations for the neovim
 Crediting **[ThePrimeagen](https://www.youtube.com/@ThePrimeagen)** for his config a lot of his configuration has been ported here
 
 Plugins that are installed here are,
+| Package                                 | Extension                       |
+|-----------------------------------------|---------------------------------|
 | Packer to install packager.             | wbthomason/packer.nvim          |
 | telescope for fuzzy finding.            | nvim-telescope/telescope.nvim   |
 | nord for theme.                         | shaunsingh/nord.nvim            |
