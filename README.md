@@ -2,7 +2,7 @@
 
 My configurations for the neovim
 
-Crediting **Theprimeagen** for his config a lot of his configuration has been ported here
+Crediting **[ThePrimeagen](https://www.youtube.com/@ThePrimeagen)** for his config a lot of his configuration has been ported here
 
 Plugins that are installed here are,
 - Packer to install packager <mark> wbthomason/packer.nvim </mark>
