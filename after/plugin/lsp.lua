@@ -40,6 +40,7 @@ cmp.setup({
         ['<S-Tab>'] = cmp_action.luasnip_shift_supertab(),
         ['<C-f>'] = cmp_action.luasnip_jump_forward(),
         ['<C-b>'] = cmp_action.luasnip_jump_backward(),
+        ['<CR>'] = cmp.mapping.confirm({ select = false }),
     }
 })
 
