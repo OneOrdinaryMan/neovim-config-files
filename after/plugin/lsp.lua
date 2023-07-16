@@ -11,6 +11,7 @@ lsp.ensure_installed({
     'bashls',
     'clangd',
     'pylsp',
+    'marksman',
     'rust_analyzer',
     'texlab',
     'tsserver'
@@ -19,6 +20,7 @@ lsp.ensure_installed({
 -- (Optional) Configure lua language server for neovim
 require('lspconfig').lua_ls.setup(lsp.nvim_lua_ls())
 require('lspconfig').pylsp.setup {}
+require('lspconfig').marksman.setup {}
 
 lsp.setup()
 
