@@ -14,13 +14,17 @@ lsp.ensure_installed({
     'marksman',
     'rust_analyzer',
     'texlab',
-    'tsserver'
+    'tsserver',
 })
 
 -- (Optional) Configure lua language server for neovim
 require('lspconfig').lua_ls.setup(lsp.nvim_lua_ls())
 require('lspconfig').pylsp.setup {}
 require('lspconfig').marksman.setup {}
+require('lspconfig').dartls.setup {
+    cmd = { "dart", "language-server", "--protocol=lsp" },
+    filetypes = { "dart" }
+}
 
 lsp.setup()
 
