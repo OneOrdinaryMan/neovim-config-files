@@ -25,7 +25,10 @@ require('lspconfig').dartls.setup {
     cmd = { "dart", "language-server", "--protocol=lsp" },
     filetypes = { "dart" }
 }
-require('lspconfig').denols.setup {}
+require('lspconfig').denols.setup {
+    filetypes = { "javascript", "javascriptreact", "javascript.jsx", "typescript", "typescriptreact", "typescript.tsx",
+        "markdown" }
+}
 
 lsp.setup()
 
