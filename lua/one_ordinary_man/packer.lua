@@ -12,13 +12,6 @@ return require('packer').startup(function(use)
         -- or                            , branch = '0.1.x',
         requires = { { 'nvim-lua/plenary.nvim' } }
     }
-    --adding the nord theme
-    use({
-        'shaunsingh/nord.nvim',
-        config = function()
-            vim.cmd("colorscheme nord")
-        end
-    })
     -- adding the treesitter
     use {
         'nvim-treesitter/nvim-treesitter',
