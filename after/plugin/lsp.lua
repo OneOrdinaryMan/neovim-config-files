@@ -15,6 +15,7 @@ lsp.ensure_installed({
     'rust_analyzer',
     'texlab',
     'tsserver',
+    'gopls',
 })
 
 -- (Optional) Configure lua language server for neovim
@@ -29,6 +30,7 @@ require('lspconfig').denols.setup {
     filetypes = { "javascript", "javascriptreact", "javascript.jsx", "typescript", "typescriptreact", "typescript.tsx",
         "markdown" }
 }
+require('lspconfig').gopls.setup {}
 
 lsp.setup()
 
